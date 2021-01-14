@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+.bg img{
+    margin-left: 350px;
+}
+/* Navbar section */
+.logo img{
+    width: 290px;
+    height: 39px;
+}
+.menu ul li a{
+    font-weight: 500;
+    font-size: 16px;
+    color: #3c3c3c !important;
+    padding: 12px 25px !important;
+    border-radius: 20px;
+    transition: 1s ease-in;
+}
+.menu ul li a:hover{
+    background: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
+    color: #FFFFFF !important;  
+}
+.nav-link.active{
+    background: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
+    color: #FFFFFF !important;  
+}
+.menu ul li:last-child{
+    margin-right: 0px;
+}
+/* Banner section */
+.banner{
+    position: relative;
+    background: #FFF9F4;
+    padding-top: 150px;
+    padding-bottom: 60px;
+}
+.img-banner img{
+    width: 450px;
+    height: 400px;
+}
+.text-banner{
+    padding-top: 100px;
+}
+.text-banner h1{
+    font-family: Bebas Neue;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 80px;
+    color: #FA804C;
+}
+.text-banner span{
+    color: #363958;
+}
+p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #3E3E3E;
+}
+.buy-now-button{
+    width: 140px;
+    height: 40px;
+    background: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
+    border-radius: 10px;
+}
+.buy-now-button img{
+    width: 24px;
+    height: 24px;
+}
+.buy-now-button h5{
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 5px 0px 0px 10px;
+}
+/* Casual Shoes section start */
+.casual-shoe-title{
+    font-family: Bebas Neue;
+    font-weight: bold;
+    font-size: 48px;
+    color: #363958;
+    padding: 50px 0px;
+}
+.card-size{
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border: 0;
+    border-radius: 20px;
+}
+.shoe-image{
+    height: 327px;
+    background: #F1F1F1;
+    border-radius: 20px;
+    margin: 20px;
+}
+.card-body h5, .about h5{
+    font-weight: bold;
+    font-size: 24px;
+    color: #363958;
+}
+.card-footer-text h4{
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FA804C;
+}
+.card-footer{
+    border: 0;
+    background: none;
+    align-items: center;
+}
+/*Formal shoes start */
+.formal-shoe-image{
+    height: 327px;
+    border-radius: 20px;
+    margin: 20px;
+}
+.formal-shoes img{
+    border: 0;
+    background: none;
+}
+/* about section start */
+.about{
+    padding: 90px 0px;
+}
+.about-image img{
+    width: 78px;
+    height: 82px;
+}
+.about-column{
+    width: 489px;
+    height: 150px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    margin: 20px 0px;
+}
+.color-about-image{
+    margin-top: 90px;
+}
+/* contact section start */
+.contact{
+    background: #F1F1F1;
+    border-radius: 20px;
+    padding: 40px 0px;
+}
+.contact-form{
+    width: 400px;
+}
